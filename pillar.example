@@ -1,0 +1,8 @@
+# Example (optional) network configuration from the Salt-virt networking docs:
+# http://docs.saltstack.com/topics/virt/nic.html
+
+virt.nic:
+  default:
+    eth0:
+      bridge: br0
+      model: virtio
