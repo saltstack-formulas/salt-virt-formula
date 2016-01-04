@@ -1,7 +1,7 @@
 include:
-  - libvirt
+  - libvirt.install
 
 salt_virt_keys:
   libvirt.keys:
     - require:
-      - pkg: libvirt
+      - pkg: libvirt.install
